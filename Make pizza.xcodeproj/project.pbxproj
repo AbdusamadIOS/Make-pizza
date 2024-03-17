@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE247AD52B4A94820097BCE7 /* Topping.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE247AD42B4A94820097BCE7 /* Topping.swift */; };
+		EE247AD72B4ACC160097BCE7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE247AD62B4ACC160097BCE7 /* Launch Screen.storyboard */; };
+		EE247AD92B4AE6C80097BCE7 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE247AD82B4AE6C80097BCE7 /* Welcome.swift */; };
 		EE75C5752B4958AB00DB2573 /* Make_pizzaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE75C5742B4958AB00DB2573 /* Make_pizzaApp.swift */; };
-		EE75C5772B4958AB00DB2573 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE75C5762B4958AB00DB2573 /* ContentView.swift */; };
+		EE75C5772B4958AB00DB2573 /* Conteneir.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE75C5762B4958AB00DB2573 /* Conteneir.swift */; };
 		EE75C5792B4958AC00DB2573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE75C5782B4958AC00DB2573 /* Assets.xcassets */; };
 		EE75C57C2B4958AC00DB2573 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE75C57B2B4958AC00DB2573 /* Preview Assets.xcassets */; };
+		EE75C5832B49BA5600DB2573 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE75C5822B49BA5600DB2573 /* Home.swift */; };
+		EE75C5852B49BE3B00DB2573 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE75C5842B49BE3B00DB2573 /* Pizza.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE247AD42B4A94820097BCE7 /* Topping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topping.swift; sourceTree = "<group>"; };
+		EE247AD62B4ACC160097BCE7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		EE247AD82B4AE6C80097BCE7 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
 		EE75C5712B4958AB00DB2573 /* Make pizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Make pizza.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE75C5742B4958AB00DB2573 /* Make_pizzaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Make_pizzaApp.swift; sourceTree = "<group>"; };
-		EE75C5762B4958AB00DB2573 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE75C5762B4958AB00DB2573 /* Conteneir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conteneir.swift; sourceTree = "<group>"; };
 		EE75C5782B4958AC00DB2573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE75C57B2B4958AC00DB2573 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE75C5822B49BA5600DB2573 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		EE75C5842B49BE3B00DB2573 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +61,8 @@
 		EE75C5732B4958AB00DB2573 /* Make pizza */ = {
 			isa = PBXGroup;
 			children = (
-				EE75C5742B4958AB00DB2573 /* Make_pizzaApp.swift */,
-				EE75C5762B4958AB00DB2573 /* ContentView.swift */,
-				EE75C5782B4958AC00DB2573 /* Assets.xcassets */,
+				EED866E22B4FFC0F0042EAE0 /* SystemViewControllers */,
+				EED866E12B4FFBE80042EAE0 /* ViewControllers */,
 				EE75C57A2B4958AC00DB2573 /* Preview Content */,
 			);
 			path = "Make pizza";
@@ -65,6 +74,28 @@
 				EE75C57B2B4958AC00DB2573 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EED866E12B4FFBE80042EAE0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE247AD82B4AE6C80097BCE7 /* Welcome.swift */,
+				EE247AD42B4A94820097BCE7 /* Topping.swift */,
+				EE75C5842B49BE3B00DB2573 /* Pizza.swift */,
+				EE75C5822B49BA5600DB2573 /* Home.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EED866E22B4FFC0F0042EAE0 /* SystemViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE75C5742B4958AB00DB2573 /* Make_pizzaApp.swift */,
+				EE247AD62B4ACC160097BCE7 /* Launch Screen.storyboard */,
+				EE75C5762B4958AB00DB2573 /* Conteneir.swift */,
+				EE75C5782B4958AC00DB2573 /* Assets.xcassets */,
+			);
+			path = SystemViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE247AD72B4ACC160097BCE7 /* Launch Screen.storyboard in Resources */,
 				EE75C57C2B4958AC00DB2573 /* Preview Assets.xcassets in Resources */,
 				EE75C5792B4958AC00DB2573 /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +169,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE75C5772B4958AB00DB2573 /* ContentView.swift in Sources */,
+				EE75C5852B49BE3B00DB2573 /* Pizza.swift in Sources */,
+				EE75C5772B4958AB00DB2573 /* Conteneir.swift in Sources */,
+				EE75C5832B49BA5600DB2573 /* Home.swift in Sources */,
+				EE247AD52B4A94820097BCE7 /* Topping.swift in Sources */,
+				EE247AD92B4AE6C80097BCE7 /* Welcome.swift in Sources */,
 				EE75C5752B4958AB00DB2573 /* Make_pizzaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,11 +308,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Make pizza/Preview Content\"";
+				DEVELOPMENT_TEAM = CWJG98258B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Make Pizza";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -300,11 +339,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Make pizza/Preview Content\"";
+				DEVELOPMENT_TEAM = CWJG98258B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Make Pizza";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
